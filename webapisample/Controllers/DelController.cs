@@ -23,11 +23,11 @@ namespace webapisample.Controllers
 			return result;
 		}
 
-		public HttpResponseMessage Get()
+		public HttpResponseMessage Get(int id)
 		{
 			var mogeList = getmogelist();
 
-			return Request.CreateResponse(HttpStatusCode.OK, new { studentList = mogeList });
+			return Request.CreateResponse(HttpStatusCode.OK, new { deleteid = id });
 		}
     }
 }
