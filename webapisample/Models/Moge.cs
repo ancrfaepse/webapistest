@@ -1,6 +1,7 @@
 ﻿using System;
 namespace webapisample.Models
 {
+    // コメント
     public class Moge
     {
         public int id
