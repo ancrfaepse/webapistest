@@ -6,6 +6,6 @@
 </head>
 <body>
 	<div>
-        <h1>testpage</h1>
+        <h1>testpage2</h1>
 	</div>
 </body>
